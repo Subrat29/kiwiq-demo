@@ -6,7 +6,7 @@ import { Loader2 } from "lucide-react";
 
 export default function ReportView() {
   const [markdown, setMarkdown] = useState("");
-  const [error, setError] = useState(null);
+  const [error, setError] = useState<Error | null>(null);
   const [loading, setLoading] = useState(true);
   const documentId = "unique-doc-id"; // Replace with actual document ID logic
 

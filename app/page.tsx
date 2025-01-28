@@ -26,24 +26,28 @@ export default function Home() {
       name: "Stage 1: LinkedIn Ad Basics Analysis",
       description: "Analyzes LinkedIn ads step by step.",
       stageNumber: 1,
+      steps: [],
     },
     {
       id: "linkedin-ad-analysis-stage-2",
       name: "Stage 2: Pattern Analysis Across Ads",
       description: "Analyzes patterns across multiple ads.",
       stageNumber: 2,
+      steps: [],
     },
     {
       id: "linkedin-ad-analysis-stage-3",
       name: "Stage 3: Section Reporting",
       description: "Generates section reports.",
       stageNumber: 3,
+      steps: [],
     },
     {
       id: "linkedin-ad-analysis-stage-4",
       name: "Stage 4: Final Report Generation",
       description: "Generates final LinkedIn Ads analysis report.",
       stageNumber: 4,
+      steps: [],
     },
   ];
   
