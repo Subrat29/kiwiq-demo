@@ -4,7 +4,7 @@ import ReactMarkdown from "react-markdown"
 import remarkGfm from "remark-gfm"
 import Image from "next/image"
 import { Hovercard } from "./hover-card"
-import CodeBlock from "./code-block"
+// import CodeBlock from "./code-block"
 import { CommentSystem } from "./comment-system"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 import ChartRenderer from "./chart-renderer"
@@ -131,9 +131,9 @@ const MarkdownRenderer: React.FC<MarkdownRendererProps> = ({ content, documentId
                 )
               }
 
-              const match = className?.match(/language-(\w+)/)
-              const language = match ? match[1] : undefined
-              return <CodeBlock language={language || "text"} value={String(children)} />
+              // const match = className?.match(/language-(\w+)/)
+              // const language = match ? match[1] : undefined
+              // return <CodeBlock language={language || "text"} value={String(children)} />
             },
             span: ({ node, ...props }) => {
               return <span {...props} />
